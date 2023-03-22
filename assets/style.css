@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(39, 0, 193);
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 20px auto;
+  color: white;
+}
+
+.square {
+  width: calc(100% / 10);
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+}
+
+.number {
+  background-color: antiquewhite;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fizz {
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "Fizz";
+}
+
+.buzz {
+  background-color: royalblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "Buzz";
+}
+
+.fizzBuzz {
+  background: rgb(165,42,42);
+  background: linear-gradient(79deg, rgba(165,42,42,1) 4%, rgba(65,105,255,1) 100%); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "FizzBuzz";
+}
