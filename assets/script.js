@@ -28,14 +28,14 @@ for (let i = 1; i <= 100; i++) {
     square.append(message = `${i} FizzBuzz`) 
 
   }else if (i % 3 === 0){
-    square.classList.add("buzz")
-    container.appendChild(square)
-    square.append(message = `${i} Buzz`)
-
-  }else if (i % 5 === 0) {
     square.classList.add("fizz")
     container.appendChild(square)
     square.append(message = `${i} Fizz`)
+
+  }else if (i % 5 === 0) {
+    square.classList.add("buzz")
+    container.appendChild(square)
+    square.append(message = `${i} Buzz`)
 
   }else {
     square.classList.add("number")
